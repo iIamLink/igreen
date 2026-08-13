@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  
+  /* Os 2 Únicos Tons de Verde Padronizados em Todo o Site */
+  --color-igreen-primary: #008744;  /* Tom 1: Verde Principal / Institucional iGreen */
+  --color-igreen-neon: #00ff66;     /* Tom 2: Verde Vibrante / Destaque / Ação */
+
+  /* Mapeamento Padronizado Estrito */
+  --color-igreen-50: #f2faf5;
+  --color-igreen-100: #e1f7eb;
+  --color-igreen-200: #008744;
+  --color-igreen-300: #00ff66;
+  --color-igreen-400: #00ff66;
+  --color-igreen-500: #008744;
+  --color-igreen-600: #008744;
+  --color-igreen-700: #007038;
+  --color-igreen-800: #005a2d;
+  --color-igreen-900: #052413;
+  --color-igreen-950: #03140a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
